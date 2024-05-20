@@ -5,8 +5,11 @@ The Maximum Weighted Clique (MWC) problem remains challenging due to its unfavou
  
  
 ### How to run:
-``` g++ -std=c++11 QClique.cpp -fopenmp -o QClique
-./QClique  -p 128```
+
+```
+g++ -std=c++11 QClique.cpp -fopenmp -o QClique
+./QClique  -p 128
+```
  
  
 ### Bibtex:
@@ -16,8 +19,9 @@ The Maximum Weighted Clique (MWC) problem remains challenging due to its unfavou
   author = { Qasim Abbas and {Mohsen} {Koohi Esfahani}  and Ian Overton and Hans Vandierendonck},
   year = {2024},
   booktitle = {Euro-Par 2024},
-}```
+}
+```
 
-## License
+### License
 
 This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE.txt) file for details.
