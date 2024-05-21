@@ -5,7 +5,7 @@ The Maximum Weighted Clique (MWC) problem remains challenging due to its unfavou
  
 ### How to run:
 ```
-g++ -std=c++11 QClique.cpp -fopenmp -o QClique
+g++ -std=c++11 QClique.cpp -fopenmp -O3 -o QClique
 ./QClique  -p 128
 ```
  
